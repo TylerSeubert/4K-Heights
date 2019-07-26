@@ -1,0 +1,15 @@
+<h2>My List:</h2>
+<div id="myListView">
+  <div id="myList">
+    <h2>{{completedPeaksTitle}}</h2>
+    <ol class="peaks">
+      <li *ngFor="let peak of peakObjects"
+        [class.selected]="peak === selectedPeak"
+        (click)="onSelect(peak)">
+        {{peak.peak}}
+      </li>
+    </ol>
+  </div>
+  <app-my-list-detail [peak]="selectedPeak" ></app-my-list-detail>
+</div>
+

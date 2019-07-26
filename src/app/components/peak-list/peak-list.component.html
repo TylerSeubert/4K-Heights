@@ -1,0 +1,10 @@
+<h1>White Mountain 4k List</h1>
+<div id="listDiv">
+    <button id="homeBtn" routerLink="" routerLinkActive="active"><i class="fas fa-home fa-2x"></i></button>
+   <h2>Peaks:</h2>
+   <ol class="peaks">
+      <li *ngFor="let peak of peaks">
+         {{peak.name}} - {{peak.elevation}}ft
+      </li>
+   </ol>
+</div>

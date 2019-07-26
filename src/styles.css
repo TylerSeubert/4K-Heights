@@ -1,1 +1,37 @@
 /* You can add global styles to this file, and also import other style files */
+html,body{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 700px;
+    overflow-y: hidden;
+}
+h1{
+    font-family: 'Codystar', cursive;
+    color:  #527d95;
+    font-size: 20pt;
+}
+h2{
+    font-size: 20pt;
+    font-family: 'Codystar', cursive;
+    color:  #527d95;
+}
+input:focus{
+    outline: none;
+}
+textarea:focus{
+   outline: none; 
+}
+select:focus{
+    outline: none;
+}
+li{
+    border-style: solid;
+    border-color: #85A130;
+    border-width: 1px;
+    font-size: 14pt;
+}
+li:hover{
+    cursor: pointer;
+    background-color: white;
+}

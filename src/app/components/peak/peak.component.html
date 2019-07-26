@@ -1,0 +1,13 @@
+<div id="flexView">
+<div id="flexPeakDiv"> 
+  <h2>Peaks:</h2>
+  <ol class="peaks">
+    <li *ngFor="let peak of peaks"
+      [class.selected]="peak === selectedPeak"
+      (click)="onSelect(peak)">
+      {{peak.name}}
+    </li>
+  </ol>
+</div>
+<app-peak-detail [peak]="selectedPeak"></app-peak-detail>
+</div>

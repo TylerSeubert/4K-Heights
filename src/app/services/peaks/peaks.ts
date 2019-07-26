@@ -1,0 +1,26 @@
+import { Peak } from './peak';
+
+export const PEAKS: Peak[] = [
+    {name: 'Washington', elevation: 6288, lat: 44.2706, lon: -71.3033},
+    {name: 'Adams', elevation: 5774, lat: 44.3203, lon: -71.2909},
+    {name: 'Jefferson', elevation: 5712, lat: 44.3045, lon: -71.3176},
+    {name: 'Monroe', elevation: 5384 , lat: 44.2556, lon:71.3220},
+    {name: 'Madison', elevation: 5367 , lat:44.3284 , lon:71.2779},
+    {name: 'Lafayette', elevation: 5260, lat:44.1607 , lon:71.6445},
+    {name: 'Lincoln', elevation: 5089 , lat: 44.1490, lon:71.6445},
+    {name: 'South Twin', elevation:4902 , lat:44.1876 , lon:71.5548},
+    {name: 'Carter Dome', elevation: 4832 , lat:44.2673, lon:71.1790},
+    {name: 'Moosilauke', elevation: 4802, lat: 44.0245, lon: 71.8309},
+    {name: 'Eisenhower', elevation: 4780, lat: 44.2403, lon: 71.3504},
+    {name: 'North Twin', elevation: 4761, lat: 44.2026, lon: 71.5579},
+    {name: 'Carrigain', elevation: 4700, lat: 44.0945, lon: 71.4474},
+    {name: 'Bond', elevation: 4698, lat: 44.1528, lon: 71.5312},
+    {name: 'Middle Carter', elevation: 4610, lat: 44.3031, lon: 71.1673},
+    {name: 'West Bond', elevation: 4540, lat: 44.1528, lon: 71.5311},
+    {name: 'Garfield', elevation: 4500, lat: 44.1870, lon: 71.6109},
+    {name: 'Liberty', elevation: 4459, lat: 44.1159, lon: 71.6420},
+    {name: 'South Carter', elevation: 4430, lat: 44.2898, lon: 71.1762},
+    {name: 'Wildcat, A peak', elevation: 4422, lat: 44.2590, lon: 71.2015},
+    {name: 'Hancock', elevation: 4420, lat: 44.0837, lon: 71.4937},
+    {name: 'South Kinsman', elevation: 4358, lat: 44.1229, lon: 71.7365},
+]

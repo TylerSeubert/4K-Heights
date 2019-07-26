@@ -1,0 +1,12 @@
+<div id="myDetail" *ngIf="peak">
+    <h2>Hike Details for {{peak.peak}}:</h2>
+    <label for="elevation">Elevation:</label>
+    <p>{{peak.elevation}}-ft</p>
+    <label for="trail">Trail Name and Difficulty:</label>
+    <p id="trail">{{peak.trail}}</p>
+    <label for="notes">Hike Notes:</label>
+    <p id="notes">{{peak.description}}</p>
+    <label for="date">Date Completed:</label>
+    <p id="date">{{peak.date}}</p>
+</div>
+

@@ -1,0 +1,53 @@
+#homepageDiv{
+    width: 100%;
+    height: 700px;
+    background-image: url("../assets/backgroundImage2.JPG");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    padding-top: 7%;
+}
+h1{
+    font-size: 42pt;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+#flexDiv{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-family: 'Codystar', cursive;
+    color: dimgray;
+    justify-content: center;
+}
+    button:hover{
+    cursor: pointer;
+    color:  #527D95;;
+}
+#iconFlexDiv{
+    margin-left: 38%;
+    margin-top: 2.5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 23.5%;
+}
+button{
+    padding: 0;
+    background: transparent;
+    border: none;
+    font-size: 14pt;
+    color: dimgray;
+}
+
+button:focus{
+    outline: 0;
+}
+#wrapperDiv{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 600px;
+    width: 300px;
+}

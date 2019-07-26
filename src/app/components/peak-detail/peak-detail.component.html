@@ -1,0 +1,19 @@
+<div *ngIf="peak">
+  <div id="hikeDetails">
+      <h3>Hike Details for {{peak.name | uppercase}}:</h3>
+      <label for="trails">Generic Trail List: </label>
+      <select [(ngModel)]="trail" name="trailsList" id="trails">
+        <option value={{trail.name}}-{{trail.difficulty}} *ngFor="let trail of trails">{{trail.name}}-{{trail.difficulty}}</option>
+      </select>
+      <label for="hikeDescription">Add companions, or comments about the hike here:</label>
+      <textarea [(ngModel)]="hikeDescription" id="hikeDescription" cols="35" rows="8"></textarea>
+      <br>
+      <label for="dateInput">Enter Date of Hike: </label>
+      <input [(ngModel)]="hikeDate" id="dateInput" type="text">
+      <br>
+      <br>
+      <button (click)="addPeak()">Add</button>
+      <br>
+      <br>
+  </div>
+</div>
